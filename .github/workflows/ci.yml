@@ -33,6 +33,7 @@ jobs:
           user_name=`git log -1 --pretty=format:'%an'`
           user_email=`git log -1 --pretty=format:'%ae'`
           deploy_branch=gh-pages
+          SET NODE_OPTIONS=--openssl-legacy-provider
           yarn
           yarn build
           cd docs/.vuepress/dist
