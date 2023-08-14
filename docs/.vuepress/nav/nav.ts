@@ -87,6 +87,8 @@ const nav = [
         { text: '归档', link: '/archives/' },
       ],
     },
+
+    { text: 'Travellings', link: 'https://www.travellings.cn/go.html' },
   ]
 
   export default nav
