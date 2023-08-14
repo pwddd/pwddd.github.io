@@ -2,6 +2,7 @@ import dayjs from 'dayjs'
 import { UserPlugins } from 'vuepress/config'
 import baiduCode from './baiduCode' // 百度统计hm码
 import htmlModules from './htmlModules' // 自定义插入的html块
+import { readFileList, readTotalFileWords, readEachFileWords } from '../webSiteInfo/readFile';
 
 
 const plugins =  <UserPlugins>[
@@ -115,6 +116,12 @@ const plugins =  <UserPlugins>[
         	name: 'custom-plugins',
         	globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     	}
+    ],
+    [
+      {
+          name: 'custom-plugins',
+          globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      }
     ]
   ]
 
