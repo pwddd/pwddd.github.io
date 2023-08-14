@@ -9,6 +9,8 @@ const plugins =  <UserPlugins>[
 
     'vuepress-plugin-baidu-autopush', // 百度自动推送
 
+    'cursor-effects',   
+
     
 
     [
@@ -114,19 +116,7 @@ const plugins =  <UserPlugins>[
     [
     	{
         	name: 'custom-plugins',
-        	globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-    	}
-    ],
-    [
-      {
-          name: 'custom-plugins',
-          globalUIComponents: ["PageInfo"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
-      }
-    ],
-    [
-    	{
-        	name: 'custom-plugins',
-        	globalUIComponents: ["LastReadingPopup"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+        	globalUIComponents: ["GlobalTip","PageInfo","LastReadingPopup"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     	}
     ],
     // [
