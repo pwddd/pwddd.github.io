@@ -93,6 +93,7 @@ pageClass: vdoing-index-class
 <ClientOnly>
   <WebInfo/>
   <IndexBigImg />
+  <!-- <Fantasy index=true /> -->
 </ClientOnly>
 
 
