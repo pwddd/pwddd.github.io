@@ -7,7 +7,9 @@ const head = // 注入到页面<head>中的标签，格式[tagName, { attrName: 
     'meta',
     {
       name: 'keywords',
-      content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+      content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown\
+                后端,后端技术,后端开发,后端框架,Spring,Redis,Dubbo,Shiro,JavaEE,Java,Python,Go,MySQL,SQL,Oracle,设计模式,架构师,安全\
+                安全,SQL注入,XSS,SDL,DevSecOps,Security,XXE,RCE,CVE,代码审计,漏洞挖掘,渗透测试,安全工具,安全资讯,安全技术,安全研究,安全团队'
     },
   ],
 
