@@ -1,8 +1,8 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: pwddd
-tagline: Web前端技术博客，积跬步以至千里，致敬每个爱学习的你。
+heroText: 白帽子的日常
+tagline: 关注前后端和安全技术，致敬每个爱学习的你。
 # actionText: 立刻进入 →
 # actionLink: /web/
 pageClass: vdoing-index-class
