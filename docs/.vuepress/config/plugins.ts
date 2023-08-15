@@ -11,6 +11,8 @@ const plugins =  <UserPlugins>[
 
     'cursor-effects',   
 
+    'reading-progress',
+
     'go-top',
     
 
@@ -130,6 +132,20 @@ const plugins =  <UserPlugins>[
          recoverTime: 2000,
       },
    ],
+
+  //  [
+  //     'meting',
+  //     {
+  //       meting: {
+  //           server: 'netease', // 音乐源
+  //           type: 'playlist', // 资源类型
+  //           mid: '2539599584', // 资源 id
+  //       },
+  //       aplayer: {
+  //           lrcType: 3,
+  //       },
+  //     },
+  //   ],
     // [
     // 	{
     //     	name: 'custom-plugins',
