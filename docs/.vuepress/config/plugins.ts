@@ -11,6 +11,7 @@ const plugins =  <UserPlugins>[
 
     'cursor-effects',   
 
+    'go-top',
     
 
     [
@@ -119,6 +120,16 @@ const plugins =  <UserPlugins>[
         	globalUIComponents: ["GlobalTip","PageInfo","LastReadingPopup"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     	}
     ],
+    [
+      'dynamic-title',
+      {
+         showIcon: '/favicon.ico',
+         showText: '(/≧▽≦/)咦！又好了！',
+         hideIcon: '/failure.ico',
+         hideText: '(●—●)喔哟，崩溃啦！',
+         recoverTime: 2000,
+      },
+   ],
     // [
     // 	{
     //     	name: 'custom-plugins',
